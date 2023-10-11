@@ -4,91 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
-    <style>
-        /* Add your custom CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            color: #0066cc;
-        }
-        img {
-            max-width: 200px;
-            border-radius: 50%;
-            margin: 10px;
-        }
-        audio, video {
-            margin: 10px 0;
-        }
-        table {
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 8px;
-            border-bottom: 1px solid #ccc;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
-        <h1>My Profile</h1>
+        <h1>Aryan Nandanwar</h1>
+        
     </header>
-    <section>
-<!--         <img src="profile_picture.jpg" alt="Profile Picture"> -->
-        <p>
-            <strong>Name:</strong> Tejaswi k<br>
-            <strong>Age:</strong> 20<br>
-            <strong>Email:</strong> tejaswi@gmail.com<br>
-            <strong>Location:</strong> Chembur, India
-        </p>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#intro_audio">Introduction Audio</a></li>
+            <li><a href="#intro_video">Introduction Video</a></li>
+            <li><a href="#table">TABLE</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I am tejaswi koul. I am a passionate and dedicated individual with a keen interest in web development and design. I love to create user-friendly and visually appealing websites.</p>
+        <table>
+            <tr>
+                <th>Date of Birth</th>
+                <td>july 9, 2003</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>tk.99@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>+91 9372982499</td>
+            </tr>
+        </table>
+        <img src="profile.jpg" alt="">
+
     </section>
-    <section>
+
+    <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
             <li>JavaScript</li>
-            <li>Python</li>
             <li>React</li>
+            <li>Node.js</li>
+            <li>Photoshop</li>
         </ul>
     </section>
-    <section>
-        <h2>Introduction</h2>
+
+    <section id="intro_audio">
+        <h2>Introduction Audio</h2>
         <audio controls>
             <source src="intro_audio.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </section>
-    <section>
-        <h2>My Projects</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Project Name</th>
-                    <th>Description</th>
-                    <th>Link</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Project 1</td>
-                    <td> File management</td>
-                    <td><a href="#">View Project</a></td>
-                </tr>
-                <tr>
-                    <td>Project 2</td>
-                    <td>short film </td>
-                    <td><a href="#">View Project</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <section>
-        <h2>My Videos</h2>
-        <video width="320" height="240" controls>
-            <source src="video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+
+    <section id="intro_video">
+        <h2>Introduction Video</h2>
+        <video controls width="640" height="360">
+            <source src="intro_video.mp4" type="video/mp4">
+            Your browser does not support the video element.
         </video>
     </section>
+
+    <section id="table">
+        <table>
+            <tr>
+                <th>Hobby</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Gaming</td>
+                <td>Playing video games for entertainment.</td>
+            </tr>
+            <tr>
+                <td>Playing Cricket</td>
+                <td>Participating in the sport of cricket.</td>
+            </tr>
+            <tr>
+                <td>Coding</td>
+                <td>Writing and developing software programs.</td>
+            </tr>
+        </table>
+
+    </section>
+
+        <address>
+            <hr>
+        Written by <a href="mailto:aryan.nandanwar@gmail.com">Aryan Nandanwar</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Mumbai<br>
+        India
+        </address>
+
+    <footer>
+        <p>Author: Aryan Nandanwar</p>
+        
+        <p><a href="mailto:aryan.nandanwar@gmail.com">aryan.nandanwar@gmail.com</a></p>
+    </footer>
+
+   
 </body>
 </html>
